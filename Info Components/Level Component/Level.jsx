@@ -8,7 +8,7 @@ const Level = () => {
     return(
         <View style={styles.nameBox}>
             <View style={{marginLeft:12, marginRight: 12}}>
-                <Ionicons name = "ios-phone-portrait-sharp" size={20}></Ionicons>
+                <Ionicons name = "people-sharp" size={20}></Ionicons>
             </View>
             <Text style={styles.description}>Chọn cấp: </Text>
             <Text style={styles.name}>Đảng bộ Tỉnh ...</Text>

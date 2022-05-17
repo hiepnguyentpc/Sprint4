@@ -7,10 +7,9 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
     borderRadius: 5,
     marginBottom: 12,
-    marginTop: 10,
+    marginTop: 0,
     flexDirection:"row",
     alignItems: "center",
-    justifyContent: "center"
     
   },
   name:{
@@ -22,7 +21,15 @@ const styles = StyleSheet.create({
   },
   description:{
       fontSize: 18,
+      
   },
+  contentBox:{
+    height: 150,
+    backgroundColor:"#F9F9F9"
+  },
+  TextInputBox:{
+    
+  }
 });
 
 export default styles

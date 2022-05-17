@@ -3,25 +3,21 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   nameBox: {
     height: 48,
-    width: 380,
-    backgroundColor: "white",
-    borderRadius: 5,
+    width: 184,
+    backgroundColor: "#E6492D",
+    borderRadius: 40,
     marginBottom: 12,
     marginTop: 10,
     flexDirection:"row",
     alignItems: "center",
-    justifyContent: "center"
+    justifyContent:"center"
     
   },
-  name:{
+  submitText:{
       fontSize: 18,
       fontWeight: "bold",
-      marginLeft:110,
-      marginRight:"auto",
-
-  },
-  description:{
-      fontSize: 18,
+      color: "white",
+      
   },
 });
 
